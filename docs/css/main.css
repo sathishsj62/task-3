@@ -24,7 +24,7 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
     color: #5fcf80;
 }
 
-a.get-btn {
+.nav-btn a {
     background: #5fcf80;
     color: #fff;
     border-radius: 50px;
@@ -33,10 +33,11 @@ a.get-btn {
     text-decoration: none;
 }
 
+
 /* Banner */
 .banner {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -44,13 +45,13 @@ a.get-btn {
 
 }
 
-.ban-text {
-    padding-top: 50px;
-}
-
+/* .ban-text {
+   
+} */
 .ban-text h1 {
     font-size: 50px;
     color: #fff;
+    font-weight: bold;
 }
 
 .ban-text p {
@@ -69,8 +70,9 @@ button {
     background: unset;
     border: 1px solid #fff;
 }
-
-
+.get-btn button:hover{
+    background: #5fcf80;
+}
 
 /* ABOUT */
 .about-head {
@@ -451,7 +453,6 @@ button#basic-addon2 {
 }
 
 .copy-icon {
-    text-align: right;
     font-size: 20px;
 }
 .copy-icon a{
