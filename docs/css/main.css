@@ -11,6 +11,9 @@
 .nav-header {
     background-color: #f8f9fa;
 }
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    margin-right: 15px;
+}
 
 .navbar-nav li a {
     font-weight: bold;
@@ -22,7 +25,6 @@
 }
 
 a.get-btn {
-    margin-left: 22px;
     background: #5fcf80;
     color: #fff;
     border-radius: 50px;
@@ -485,8 +487,6 @@ button#basic-addon2 {
    
     text-decoration: none;
     position: fixed;
-    visibility: visible;
-    opacity: 1;
     right: 15px;
     bottom: 15px;
     background: #5fcf80;
